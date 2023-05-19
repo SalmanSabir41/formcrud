@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/form.js">
+    
 </head>
 <style>
     .main_container {
@@ -21,6 +21,7 @@
     }
     h1 {
     text-align: center;
+    background-color: darkgray;
 }
 .button {
     text-align: center;
@@ -136,7 +137,7 @@
         position: relative;
     }
     
-    .alert {
+    /* .alert {
         font-size: 16px;
         font-family: sans-serif;
         color: red;
@@ -144,6 +145,23 @@
         position: absolute;
         bottom: -19px;
         left: 110px;
+        display: none;
+    } */
+    #input1{
+        display: none;
+    }
+    #input2{
+        display: none;
+    }
+    #input3{
+        display: none;
+    }#input4{
+        display: none;
+    }#input5{
+        display: none;
+    }#input6{
+        display: none;
+    }#input7{
         display: none;
     }
     
@@ -256,6 +274,9 @@
         .container{
             background-color: #d6f3ef;
         }
+        h1{
+            background-color: #c2dbe7;
+        }
 
         .form_part2 {
         
@@ -341,7 +362,7 @@
                         <option value="M.B.A">M.B.A</option>
                         <option value="B.C.A">B.C.A</option>
                     </select>
-                    <p class="alert" id="myId">please fill</p>
+                    <!-- <p class="alert" id="myId">please fill</p> -->
                 </div>
 
             </div>
@@ -355,7 +376,7 @@
             </div>
         </div>
         <div class="button">
-            <button onclick="formSubmit()" type="button">Submit</button>
+            <button onclick="formSubmit()">Submit</button>
         </div>
 
     </div>
@@ -365,7 +386,7 @@
 
 
 
-
+<script src="/form.js"></script>
 
 
 

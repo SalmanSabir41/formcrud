@@ -14,11 +14,11 @@ function formSubmit() {
 
     if (!maleId && !femaleId) {
         document.getElementById("gender").style.display = "block"
-        let success = false;
+        success = false;
     }
     else {
         document.getElementById("gender").style.display = "none"
-        let success = true;
+       success = true;
     }
 
     if (data1 == "") {
@@ -94,3 +94,19 @@ function formSubmit() {
         alert('form is submitted')
     }
 }
+
+
+// function formSubmit(){
+//         let data1 = document.getElementById("data1").value
+//     let data2 = document.getElementById("data2").value
+//     let data3 = document.getElementById("data3").value
+//     let data4 = document.getElementById("data4").value
+//     let data5 = document.getElementById("data5").value
+//     let data6 = document.getElementById("data6").value
+//     let data7 = document.getElementById("data7").value;
+
+//     if(data1 == ""){
+//         document.getElementById("input1").style.display = "block"
+//     }
+
+// }
